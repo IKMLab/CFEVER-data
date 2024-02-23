@@ -34,7 +34,7 @@ unzip wiki-pages.zip
         - `lines`: the processed text of the Wikipedia article including **the sentence numbers**
 
 ## Evaluation
-- Please refer to our codebase: https://github.com/IKMLab/CFEVER-baselines
+- Please refer to our codebase: https://github.com/IKMLab/CFEVER-baselines/?tab=readme-ov-file#evaluations
 
 ## Submission
 - Please include two fields: `predicted_label` and `predicted_evidence` for each claim in the test set. The `predicted_label` should be one of `SUPPORTS`, `REFUTES`, or `NOT ENOUGH INFO`. The `predicted_evidence` should be a list of evidence sentences, where each evidence sentence is represented by a list of `[page_id, line_number]`. For example:
