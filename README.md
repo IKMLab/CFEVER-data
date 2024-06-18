@@ -37,7 +37,11 @@ unzip wiki-pages.zip
 - Please refer to our codebase: https://github.com/IKMLab/CFEVER-baselines/?tab=readme-ov-file#evaluations
 
 ## Submission
-- Please include two fields: `predicted_label` and `predicted_evidence` for each claim in the test set. The `predicted_label` should be one of `SUPPORTS`, `REFUTES`, or `NOT ENOUGH INFO`. The `predicted_evidence` should be a list of evidence sentences, where each evidence sentence is represented by a list of `[page_id, line_number]`. For example:
+- Please include two fields (necessary) in the prediction file for each claim in the test set.
+    - `predicted_label`
+    - `predicted_evidence`
+- The `predicted_label` should be one of `supports`, `refutes`, or `NOT ENOUGH INFO`.
+- The `predicted_evidence` should be a list of evidence sentences, where each evidence sentence is represented by a list of `[page_id, line_number]`. For example:
 
 ```
 # One evidence sentence for the claim
@@ -71,7 +75,8 @@ unzip wiki-pages.zip
 }
 ```
 - After creating the prediction file, please email the file to yingjia.lin.public@gmail.com with a brief description of your method. We will evaluate your submission and update the leaderboard.
-- You can also check [the prediction example for the development set](https://github.com/IKMLab/CFEVER-baselines/blob/main/simple_baseline/data/dumb_dev_pred.jsonl) or follow [the evaluation steps](https://github.com/IKMLab/CFEVER-baselines/tree/main?tab=readme-ov-file#sentence-retrieval-and-claim-verification) from [our CFEVER-baselines repo](https://github.com/IKMLab/CFEVER-baselines).
+- A randomly generated submission file can be found [here](sample_submission.jsonl).
+- You can also check [the prediction example for the development set](https://github.com/IKMLab/CFEVER-baselines/blob/main/simple_baseline/data/dumb_dev_pred.jsonl) and follow [the evaluation steps](https://github.com/IKMLab/CFEVER-baselines/tree/main?tab=readme-ov-file#sentence-retrieval-and-claim-verification) from [our CFEVER-baselines repo](https://github.com/IKMLab/CFEVER-baselines).
 
 
 ## Reference
