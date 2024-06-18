@@ -14,7 +14,8 @@ CFEVER-data
 │   ├── test.jsonl # CFEVER test set without labels and evidence
 │   └── train.jsonl # CFEVER training set
 ├── LICENSE
-└── README.md
+├── README.md
+└── sample_submission.jsonl # sample submission file of the test set
 ```
 
 ## Getting started
@@ -76,6 +77,7 @@ unzip wiki-pages.zip
 ```
 - After creating the prediction file, please email the file to yingjia.lin.public@gmail.com with a brief description of your method. We will evaluate your submission and update the leaderboard.
 - A randomly generated submission file can be found [here](sample_submission.jsonl).
+    - Note that `claim` is not necessary to be included in the submission file.
 - You can also check [the prediction example for the development set](https://github.com/IKMLab/CFEVER-baselines/blob/main/simple_baseline/data/dumb_dev_pred.jsonl) and follow [the evaluation steps](https://github.com/IKMLab/CFEVER-baselines/tree/main?tab=readme-ov-file#sentence-retrieval-and-claim-verification) from [our CFEVER-baselines repo](https://github.com/IKMLab/CFEVER-baselines).
 
 
