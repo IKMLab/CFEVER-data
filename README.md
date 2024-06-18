@@ -71,6 +71,7 @@ unzip wiki-pages.zip
 }
 ```
 - After creating the prediction file, please email the file to yingjia.lin.public@gmail.com with a brief description of your method. We will evaluate your submission and update the leaderboard.
+- You can also check [the prediction example for the development set](https://github.com/IKMLab/CFEVER-baselines/blob/main/simple_baseline/data/dumb_dev_pred.jsonl) or follow [the evaluation steps](https://github.com/IKMLab/CFEVER-baselines/tree/main?tab=readme-ov-file#sentence-retrieval-and-claim-verification) from [our CFEVER-baselines repo](https://github.com/IKMLab/CFEVER-baselines).
 
 
 ## Reference
