@@ -38,9 +38,11 @@ unzip wiki-pages.zip
 - Please refer to our codebase: https://github.com/IKMLab/CFEVER-baselines/?tab=readme-ov-file#evaluations
 
 ## Submission
-- Please include two fields (necessary) in the prediction file for each claim in the test set.
+- Please include three fields (necessary) in the prediction file for each claim in the test set.
+    - `id`
     - `predicted_label`
     - `predicted_evidence`
+- The `id` field has been already included in [the test set](data/test.jsonl). Please do not change the order.
 - The `predicted_label` should be one of `supports`, `refutes`, or `NOT ENOUGH INFO`.
 - The `predicted_evidence` should be a list of evidence sentences, where each evidence sentence is represented by a list of `[page_id, line_number]`. For example:
 
