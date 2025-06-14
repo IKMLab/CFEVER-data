@@ -1,7 +1,7 @@
 # CFEVER-data
 
 ## Introduction to CFEVER
-This repository contains the dataset for our AAAI 2024 paper, "CFEVER: A Chinese Fact Extraction and VERification Dataset". (Paper link will be provided soon.)
+This repository contains the dataset for our AAAI 2024 paper, "CFEVER: A Chinese Fact Extraction and VERification Dataset". [Paper link](https://doi.org/10.1609/aaai.v38i17.29825).
 
 ## Leaderboard website
 Please visit https://ikmlab.github.io/CFEVER to check the leaderboard of CFEVER.
